@@ -65,8 +65,11 @@ def most_and_least_common_type(treats):
     # ... {'type': 'drink'},
     # ... {'type': 'appetizer'},
     # ... ]
-    # >>> most_and_least_common_type(treats)
-    # ('dessert', 'appetizer')
+    # 
+
+    #>>> a = most_and_least_common_type(treats)
+    # if a == dessert 
+    ('dessert', 'appetizer')
 #Note to self: dictionaries are undorderd so this test will not pass because the output will be random depending on what the dictionary wants to spit out.
 # so, dessert OR drink can be returned.
 
